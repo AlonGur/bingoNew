@@ -1,0 +1,27 @@
+h2{
+    padding:0px;
+    align-self: center;
+}
+.board{
+    display: flex;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.board div{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.gotIt{
+    background-color:red;
+}
+.numBtn{
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 1.5em;
+    margin: 10px;
+    box-shadow: 3px 3px black;
+}
